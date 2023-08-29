@@ -1,0 +1,2472 @@
+[
+  {
+    "medical_staff": [
+      {
+        "id": "bb1917a4-1b24-47fa-b05e-337947b3eca1",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T11:24:39.446Z",
+        "updated_at": "2023-08-29T02:56:25.469Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d48f9ae-225f-461f-a0d8-74e0699b2b12",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-29T05:35:52.146Z",
+        "updated_at": "2023-08-29T15:51:41.764Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e119133-bef5-4302-a925-c66286c91136",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T12:12:52.537Z",
+        "updated_at": "2023-08-29T08:09:16.800Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a23d16e5-da57-4852-b97f-d819058afcc7",
+        "position": "Physician Assistant",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T08:57:02.426Z",
+        "updated_at": "2023-08-29T05:33:37.086Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a8fad2-2bb8-493b-a602-93d5f3a3cec4",
+        "position": "Medical Technician",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-28T20:42:13.007Z",
+        "updated_at": "2023-08-29T18:38:11.640Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "49eb3096-d993-424f-af3c-1f056bc2af09",
+        "company_name": "ABC Insurance",
+        "coverage": "Medical",
+        "created_at": "2023-08-29T10:09:04.889Z",
+        "updated_at": "2023-08-28T22:59:26.818Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "710cab55-4b21-473a-94fc-c955c2834ca0",
+        "company_name": "XYZ Insurance",
+        "coverage": "Dental",
+        "created_at": "2023-08-29T08:40:26.774Z",
+        "updated_at": "2023-08-28T20:55:22.379Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0338e4e5-8ea5-41ba-b41f-e0bb76d67aca",
+        "company_name": "Secure Health",
+        "coverage": "Vision",
+        "created_at": "2023-08-28T22:01:26.629Z",
+        "updated_at": "2023-08-29T16:26:09.543Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e891fc7-74a7-48b6-849b-3c2409d63f2f",
+        "company_name": "Global Coverage",
+        "coverage": "Life",
+        "created_at": "2023-08-28T22:41:57.297Z",
+        "updated_at": "2023-08-29T05:49:08.091Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce4eccc9-41bb-44ab-816e-449b340c2aba",
+        "company_name": "SafeGuard Insurance",
+        "coverage": "Disability",
+        "created_at": "2023-08-29T09:15:24.965Z",
+        "updated_at": "2023-08-29T03:46:32.505Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "fc859701-4c5b-4303-b956-69f32ca2f557",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 41943,
+        "created_at": "2023-08-29T11:56:57.814Z",
+        "updated_at": "2023-08-29T11:15:11.167Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5f2e280-096f-42fa-b81d-c82a0bbe8e54",
+        "specialization": "Orthopedics",
+        "qualification": "DO",
+        "experience": 96182,
+        "created_at": "2023-08-29T03:06:08.379Z",
+        "updated_at": "2023-08-29T04:04:32.177Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c44c2abe-dcfb-45c8-af9c-f8017d84a502",
+        "specialization": "Dermatology",
+        "qualification": "MBBS",
+        "experience": 90049,
+        "created_at": "2023-08-28T21:01:55.928Z",
+        "updated_at": "2023-08-29T00:36:39.733Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c344bb77-0d6e-48b5-87da-f867471886d6",
+        "specialization": "Pediatrics",
+        "qualification": "DDS",
+        "experience": 24479,
+        "created_at": "2023-08-29T01:25:50.881Z",
+        "updated_at": "2023-08-29T18:45:15.104Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a252fe2-8c30-4a5b-9e61-a2912327f8e9",
+        "specialization": "Ophthalmology",
+        "qualification": "DNP",
+        "experience": 42779,
+        "created_at": "2023-08-29T03:22:00.162Z",
+        "updated_at": "2023-08-29T15:20:41.785Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "4449e1c8-50b3-4916-8aea-30813b48172b",
+        "date": "2023-08-29T17:23:58.683Z",
+        "time": "2023-08-29T05:44:38.869Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T17:14:16.529Z",
+        "updated_at": "2023-08-29T13:28:01.490Z",
+        "healthcare_provider_id": "c44c2abe-dcfb-45c8-af9c-f8017d84a502",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45ad4a1c-92cf-4a88-aba5-cd31d08cead4",
+        "date": "2023-08-29T05:05:51.448Z",
+        "time": "2023-08-29T07:17:50.649Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T11:21:55.761Z",
+        "updated_at": "2023-08-29T17:25:49.235Z",
+        "healthcare_provider_id": "1a252fe2-8c30-4a5b-9e61-a2912327f8e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7d6ead1-f0fa-4352-912f-0864cb126d4a",
+        "date": "2023-08-29T14:35:14.140Z",
+        "time": "2023-08-28T21:50:06.078Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T15:20:07.731Z",
+        "updated_at": "2023-08-29T12:35:46.775Z",
+        "healthcare_provider_id": "1a252fe2-8c30-4a5b-9e61-a2912327f8e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb50e4a2-ac14-4c25-bd79-65412126da46",
+        "date": "2023-08-28T22:27:21.599Z",
+        "time": "2023-08-29T01:29:56.173Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T13:49:04.076Z",
+        "updated_at": "2023-08-29T12:44:19.408Z",
+        "healthcare_provider_id": "c344bb77-0d6e-48b5-87da-f867471886d6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66f62eb9-3bca-4e3d-a67e-04a2c5b70aba",
+        "date": "2023-08-29T09:30:06.594Z",
+        "time": "2023-08-28T22:48:46.474Z",
+        "status": "No Show",
+        "created_at": "2023-08-29T16:23:29.973Z",
+        "updated_at": "2023-08-29T11:48:04.772Z",
+        "healthcare_provider_id": "f5f2e280-096f-42fa-b81d-c82a0bbe8e54",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b17f56dc-e0f9-4221-8672-3564ff038106",
+        "email": "Pierce_Rogahn15@yahoo.com",
+        "firstName": "Leta",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/43.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a403b13e-3b6d-473e-9f79-3fdd067b7eb6",
+        "email": "Madonna65@yahoo.com",
+        "firstName": "Marquise",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65237991",
+        "tenantId": null
+      },
+      {
+        "reference": "09a1c9bc-e2e0-477f-8ce4-6f2f6d3ee492",
+        "email": "Gloria.Terry@gmail.com",
+        "firstName": "Blaze",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90610149",
+        "tenantId": null
+      },
+      {
+        "reference": "ffd1e061-0521-4f6b-9870-135f99c18cb7",
+        "email": "Ottis_Kilback92@hotmail.com",
+        "firstName": "Aubrey",
+        "lastName": "Koelpin-Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32697148-d5ee-466b-a3b1-14e27d246a04",
+        "email": "Zola.Stark@hotmail.com",
+        "firstName": "Sabrina",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76326450",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "35c3187d-d71f-4fa6-950d-4d34f26b6857",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T09:30:07.883Z",
+        "updated_at": "2023-08-29T04:50:19.224Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6698b468-f123-4605-bebb-61b7458ba618",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-29T16:55:01.418Z",
+        "updated_at": "2023-08-29T11:05:06.793Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76cbaf2c-4807-4f02-b04c-d2fd8b62f552",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T14:35:17.648Z",
+        "updated_at": "2023-08-29T18:42:36.351Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3525834-626b-4132-a8db-31b786ef7f54",
+        "position": "Anesthesiologist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T13:52:37.760Z",
+        "updated_at": "2023-08-29T00:03:49.616Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1347b74a-c646-4e13-a55a-83b9e718b715",
+        "position": "Pharmacist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T16:25:25.922Z",
+        "updated_at": "2023-08-29T18:15:55.378Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "6be5030f-097c-4453-8ee3-34ae3b3b6899",
+        "company_name": "ABC Insurance",
+        "coverage": "Health",
+        "created_at": "2023-08-28T20:14:41.355Z",
+        "updated_at": "2023-08-29T11:38:20.081Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "994a94bd-1d0d-4385-881c-ccc08fb9727f",
+        "company_name": "XYZ Insurance",
+        "coverage": "Auto",
+        "created_at": "2023-08-28T19:52:02.194Z",
+        "updated_at": "2023-08-28T21:09:02.472Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "622d6bb7-8685-4fca-8f44-c12f4db654e7",
+        "company_name": "Acme Insurance",
+        "coverage": "Home",
+        "created_at": "2023-08-28T22:48:07.167Z",
+        "updated_at": "2023-08-29T09:29:00.362Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15f279cf-7f3c-4dc6-bb6a-d19792a6a382",
+        "company_name": "Secure Insurance",
+        "coverage": "Life",
+        "created_at": "2023-08-28T19:59:13.007Z",
+        "updated_at": "2023-08-29T06:05:35.659Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30bb5fde-4136-481b-a0b8-1b9f9bce6511",
+        "company_name": "Global Insurance",
+        "coverage": "Travel",
+        "created_at": "2023-08-29T12:00:01.371Z",
+        "updated_at": "2023-08-28T19:31:58.100Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "f7cb3a0c-92a7-45ae-9c7d-c11cdf669af0",
+        "specialization": "Cardiology",
+        "qualification": "MBBS",
+        "experience": 77043,
+        "created_at": "2023-08-28T23:30:53.605Z",
+        "updated_at": "2023-08-29T15:34:42.990Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "635ffeae-4349-4171-9955-f9fc0961c4bd",
+        "specialization": "Dermatology",
+        "qualification": "MD",
+        "experience": 80418,
+        "created_at": "2023-08-29T17:51:53.789Z",
+        "updated_at": "2023-08-28T21:23:39.192Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67a85af3-821f-4e97-8a97-e712889e8b10",
+        "specialization": "Orthopedics",
+        "qualification": "MS",
+        "experience": 37521,
+        "created_at": "2023-08-29T08:35:24.745Z",
+        "updated_at": "2023-08-29T16:50:11.027Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "259655f9-81b0-4c75-acb5-d5b7832d555e",
+        "specialization": "Pediatrics",
+        "qualification": "DM",
+        "experience": 25746,
+        "created_at": "2023-08-29T01:29:31.757Z",
+        "updated_at": "2023-08-28T21:28:56.651Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd61655c-d32f-4280-a45e-7ff2357f1071",
+        "specialization": "Oncology",
+        "qualification": "MCh",
+        "experience": 40877,
+        "created_at": "2023-08-29T04:34:25.031Z",
+        "updated_at": "2023-08-29T11:31:32.838Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "606e6f70-2bea-421c-ad76-23c12d0f8700",
+        "date": "2023-08-29T13:08:11.372Z",
+        "time": "2023-08-29T11:26:51.655Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T08:01:04.260Z",
+        "updated_at": "2023-08-29T06:33:02.301Z",
+        "healthcare_provider_id": "fd61655c-d32f-4280-a45e-7ff2357f1071",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3575cd48-14f2-4807-b884-a3c847e69c69",
+        "date": "2023-08-28T21:07:53.781Z",
+        "time": "2023-08-29T15:17:57.327Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-29T03:32:59.853Z",
+        "updated_at": "2023-08-29T14:07:22.366Z",
+        "healthcare_provider_id": "67a85af3-821f-4e97-8a97-e712889e8b10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6d21785-83b2-4ce6-a543-047d73adb29d",
+        "date": "2023-08-28T23:10:04.053Z",
+        "time": "2023-08-29T09:04:31.116Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T20:14:28.141Z",
+        "updated_at": "2023-08-29T12:40:34.490Z",
+        "healthcare_provider_id": "67a85af3-821f-4e97-8a97-e712889e8b10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b45f863-d407-4afd-ad6a-bc3f9a79b39c",
+        "date": "2023-08-29T11:56:20.224Z",
+        "time": "2023-08-29T10:50:02.400Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T10:39:47.383Z",
+        "updated_at": "2023-08-29T10:15:25.443Z",
+        "healthcare_provider_id": "fd61655c-d32f-4280-a45e-7ff2357f1071",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2fcec77-d4f0-4174-82ee-2e560d12b748",
+        "date": "2023-08-29T02:44:34.286Z",
+        "time": "2023-08-29T07:45:24.485Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T03:48:13.218Z",
+        "updated_at": "2023-08-29T13:21:13.508Z",
+        "healthcare_provider_id": "f7cb3a0c-92a7-45ae-9c7d-c11cdf669af0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cf840e7b-8250-4915-8936-b217f71233a4",
+        "email": "Johnathan_Conn@hotmail.com",
+        "firstName": "Felipa",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11971275",
+        "tenantId": null
+      },
+      {
+        "reference": "a657b192-1387-4a8f-8ba2-7f6af66838f1",
+        "email": "Cecil_Littel54@gmail.com",
+        "firstName": "Hope",
+        "lastName": "Crona-Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30413259",
+        "tenantId": null
+      },
+      {
+        "reference": "e7c3631c-82d1-4150-91ed-446cb4dd3995",
+        "email": "Jacky_Towne-McClure@yahoo.com",
+        "firstName": "Randal",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42072599",
+        "tenantId": null
+      },
+      {
+        "reference": "7556f1b6-a898-4688-9ea1-6a2fccbc6683",
+        "email": "Elmira_Kovacek81@hotmail.com",
+        "firstName": "Hassie",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15367717",
+        "tenantId": null
+      },
+      {
+        "reference": "450e8773-1b9a-4312-8361-dd8e75312aa0",
+        "email": "Tyshawn26@gmail.com",
+        "firstName": "Tyler",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51436590",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "a730ac49-ce9a-4f50-b2f8-18e365325a9e",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-28T19:52:52.461Z",
+        "updated_at": "2023-08-28T20:38:42.015Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc791248-c4b9-44f5-a704-f41142abc548",
+        "position": "Nurse",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T15:53:53.096Z",
+        "updated_at": "2023-08-28T20:46:59.200Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83dae6cc-8e56-4864-9692-55084aa59475",
+        "position": "Surgeon",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T11:25:59.354Z",
+        "updated_at": "2023-08-29T02:35:11.024Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f478624c-bd23-4d14-b1f2-79196e2c8d7b",
+        "position": "Anesthesiologist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T10:29:26.689Z",
+        "updated_at": "2023-08-29T03:33:42.189Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c142e7db-a8b9-4761-8aec-d3956a4b636f",
+        "position": "Pharmacist",
+        "work_shift": "Rotating",
+        "created_at": "2023-08-29T17:19:05.986Z",
+        "updated_at": "2023-08-29T08:16:02.030Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "aa558a7c-8051-486b-aa33-43ea95ed34c8",
+        "company_name": "ABC Insurance",
+        "coverage": "Health insurance",
+        "created_at": "2023-08-28T23:49:18.499Z",
+        "updated_at": "2023-08-29T14:45:50.488Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "322d1035-447c-45e8-9b70-0132083ec750",
+        "company_name": "XYZ Insurance",
+        "coverage": "Auto insurance",
+        "created_at": "2023-08-29T01:04:43.512Z",
+        "updated_at": "2023-08-29T04:09:24.685Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5125a308-dc93-4a74-af21-3a9fe9039948",
+        "company_name": "123 Insurance",
+        "coverage": "Home insurance",
+        "created_at": "2023-08-29T14:48:58.703Z",
+        "updated_at": "2023-08-29T17:00:15.959Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f5d3735-16a8-402c-923e-cdcf4a16d234",
+        "company_name": "PQR Insurance",
+        "coverage": "Life insurance",
+        "created_at": "2023-08-28T22:06:32.682Z",
+        "updated_at": "2023-08-29T17:40:30.827Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cca2e37-a4ea-4e6b-bd8d-b82526e454e7",
+        "company_name": "MNO Insurance",
+        "coverage": "Travel insurance",
+        "created_at": "2023-08-29T11:56:23.370Z",
+        "updated_at": "2023-08-29T13:29:14.947Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "d65c2da6-40af-4700-865d-59c2ea648319",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 20445,
+        "created_at": "2023-08-29T10:33:58.990Z",
+        "updated_at": "2023-08-29T12:09:29.359Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "536ded7b-e800-4e7e-a43d-8804dc864f79",
+        "specialization": "Dermatology",
+        "qualification": "PhD",
+        "experience": 39365,
+        "created_at": "2023-08-29T08:48:48.550Z",
+        "updated_at": "2023-08-28T21:21:12.183Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83711771-19e2-447d-9ada-767ef773fb94",
+        "specialization": "Gastroenterology",
+        "qualification": "MBBS",
+        "experience": 34978,
+        "created_at": "2023-08-29T00:54:06.735Z",
+        "updated_at": "2023-08-29T14:36:15.571Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc6ce851-dbfc-4752-a2f6-d0da72eaa477",
+        "specialization": "Neurology",
+        "qualification": "MS",
+        "experience": 96778,
+        "created_at": "2023-08-29T04:54:45.728Z",
+        "updated_at": "2023-08-29T05:58:46.629Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b50b2b4-b7d5-41ad-9b31-5aecd8e130ff",
+        "specialization": "Oncology",
+        "qualification": "MSc",
+        "experience": 987,
+        "created_at": "2023-08-29T08:54:30.679Z",
+        "updated_at": "2023-08-29T07:31:58.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "561ec11c-0516-444e-991a-5565c084f4d1",
+        "date": "2023-08-29T17:29:05.386Z",
+        "time": "2023-08-28T19:30:39.349Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T07:18:07.044Z",
+        "updated_at": "2023-08-29T10:25:33.663Z",
+        "healthcare_provider_id": "d65c2da6-40af-4700-865d-59c2ea648319",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a45a9e7-035b-445b-a143-3591961a24a4",
+        "date": "2023-08-29T01:10:54.325Z",
+        "time": "2023-08-29T10:08:25.563Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T17:40:22.960Z",
+        "updated_at": "2023-08-29T10:43:04.374Z",
+        "healthcare_provider_id": "d65c2da6-40af-4700-865d-59c2ea648319",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c545814a-1754-41a1-bad4-4543bfd600c8",
+        "date": "2023-08-29T04:21:25.311Z",
+        "time": "2023-08-29T08:59:40.059Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T07:58:31.287Z",
+        "updated_at": "2023-08-29T09:30:31.874Z",
+        "healthcare_provider_id": "d65c2da6-40af-4700-865d-59c2ea648319",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccbe679c-a03b-46e2-b4ba-7d1aa012db83",
+        "date": "2023-08-29T06:08:51.887Z",
+        "time": "2023-08-29T03:49:40.999Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T06:04:03.413Z",
+        "updated_at": "2023-08-29T00:52:43.109Z",
+        "healthcare_provider_id": "83711771-19e2-447d-9ada-767ef773fb94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b02c4461-dc30-4bc4-a7bc-fa533d0f3029",
+        "date": "2023-08-29T04:31:04.163Z",
+        "time": "2023-08-29T15:18:57.880Z",
+        "status": "Pending",
+        "created_at": "2023-08-29T14:07:26.981Z",
+        "updated_at": "2023-08-29T14:37:50.038Z",
+        "healthcare_provider_id": "536ded7b-e800-4e7e-a43d-8804dc864f79",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "873d3329-9d2e-426b-8d58-c8073da63a8d",
+        "email": "Petra54@yahoo.com",
+        "firstName": "Enid",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5defd91d-62ae-4efb-9c09-99b0aec4a1c0",
+        "email": "Sim59@gmail.com",
+        "firstName": "Ansley",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74533262",
+        "tenantId": null
+      },
+      {
+        "reference": "d239c226-38c0-4abe-bf26-2f2186c791a6",
+        "email": "Mallory_Price@gmail.com",
+        "firstName": "Haven",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63212878",
+        "tenantId": null
+      },
+      {
+        "reference": "8f5e2fcb-f2a8-4d42-96b8-c21d07657a93",
+        "email": "Taryn51@hotmail.com",
+        "firstName": "Stacey",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/897.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f089034-1f28-4747-bdf4-d7862b9c3a78",
+        "email": "Chaim61@yahoo.com",
+        "firstName": "Ted",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91989631",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "59dc23dc-f087-47c8-b95f-d8fa1292b5f7",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T02:44:17.385Z",
+        "updated_at": "2023-08-28T20:58:54.768Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d61fed84-aa0a-4499-8afa-83b717246712",
+        "position": "Nurse",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T00:39:21.040Z",
+        "updated_at": "2023-08-29T08:23:07.518Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db53fbb2-f71b-4dcc-a2d9-d37c20f8250c",
+        "position": "Surgeon",
+        "work_shift": "Night",
+        "created_at": "2023-08-28T22:57:40.938Z",
+        "updated_at": "2023-08-28T21:31:06.810Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12490d34-e11f-4d30-84d7-7270741de00b",
+        "position": "Pharmacist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-28T20:55:50.205Z",
+        "updated_at": "2023-08-29T01:21:04.234Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cb19f4d-8525-4ce8-899c-adbb3c373ac8",
+        "position": "Physician Assistant",
+        "work_shift": "On-call",
+        "created_at": "2023-08-29T16:50:26.060Z",
+        "updated_at": "2023-08-28T23:30:10.047Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "efef19e6-0591-4129-a6be-a6c169dc4093",
+        "company_name": "ABC Insurance",
+        "coverage": "Medical",
+        "created_at": "2023-08-29T18:39:52.742Z",
+        "updated_at": "2023-08-29T18:33:59.172Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5331ed6f-bf06-4981-bfa5-7192579cbbf3",
+        "company_name": "XYZ Healthcare",
+        "coverage": "Dental",
+        "created_at": "2023-08-28T22:16:11.742Z",
+        "updated_at": "2023-08-29T05:51:24.460Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc8e7175-3afb-4acd-a5b5-bcd5a1bcea80",
+        "company_name": "123 Insurance",
+        "coverage": "Vision",
+        "created_at": "2023-08-29T09:59:46.734Z",
+        "updated_at": "2023-08-29T11:32:34.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "573cc2b9-34c4-425b-bc71-79f85947e417",
+        "company_name": "HealthGuard",
+        "coverage": "Life",
+        "created_at": "2023-08-29T12:12:35.164Z",
+        "updated_at": "2023-08-28T20:14:05.456Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbbe0a0c-b5df-49e2-ae5c-c62568ec49aa",
+        "company_name": "SecureCare",
+        "coverage": "Disability",
+        "created_at": "2023-08-29T00:27:26.159Z",
+        "updated_at": "2023-08-28T23:00:26.200Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "3f1d20b8-6693-437c-83a9-f1775ec3e9b8",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 93359,
+        "created_at": "2023-08-29T05:52:48.542Z",
+        "updated_at": "2023-08-28T19:37:17.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "791d00fc-8949-4848-b9b2-63c6a79f5d30",
+        "specialization": "Dermatology",
+        "qualification": "DO",
+        "experience": 86558,
+        "created_at": "2023-08-28T23:26:25.462Z",
+        "updated_at": "2023-08-29T01:15:13.168Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d70a7ec6-4942-4d4f-a10b-21299a41fa69",
+        "specialization": "Orthopedics",
+        "qualification": "MBBS",
+        "experience": 99654,
+        "created_at": "2023-08-29T12:59:12.813Z",
+        "updated_at": "2023-08-29T11:54:37.560Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "389bdbde-e843-4ee1-9d51-fde0e0d0ee0d",
+        "specialization": "Pediatrics",
+        "qualification": "DDS",
+        "experience": 14216,
+        "created_at": "2023-08-29T11:35:27.918Z",
+        "updated_at": "2023-08-29T08:48:43.886Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ce7e3de-22a4-474a-8258-4af484c7924a",
+        "specialization": "Ophthalmology",
+        "qualification": "PhD",
+        "experience": 39182,
+        "created_at": "2023-08-29T02:31:22.825Z",
+        "updated_at": "2023-08-28T20:13:34.238Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "6702a924-ed9b-4519-9920-e246c00e0a5f",
+        "date": "2023-08-29T14:12:57.983Z",
+        "time": "2023-08-29T15:47:58.816Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T11:51:44.265Z",
+        "updated_at": "2023-08-29T11:11:37.132Z",
+        "healthcare_provider_id": "389bdbde-e843-4ee1-9d51-fde0e0d0ee0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "577da4e3-54e3-488b-891e-d730791d5d2f",
+        "date": "2023-08-28T22:20:20.372Z",
+        "time": "2023-08-29T12:59:37.661Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T17:41:22.270Z",
+        "updated_at": "2023-08-28T20:20:30.352Z",
+        "healthcare_provider_id": "389bdbde-e843-4ee1-9d51-fde0e0d0ee0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd86dbd7-f42f-4ca8-aa5c-977a8b6a84ae",
+        "date": "2023-08-29T04:51:30.987Z",
+        "time": "2023-08-29T05:36:57.299Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T11:25:12.679Z",
+        "updated_at": "2023-08-29T06:26:17.672Z",
+        "healthcare_provider_id": "6ce7e3de-22a4-474a-8258-4af484c7924a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f7d427b-9cf0-4ff1-b243-5d834ecea3be",
+        "date": "2023-08-29T15:00:07.023Z",
+        "time": "2023-08-29T13:35:51.255Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T15:50:45.765Z",
+        "updated_at": "2023-08-29T06:36:16.802Z",
+        "healthcare_provider_id": "3f1d20b8-6693-437c-83a9-f1775ec3e9b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a13449-bf70-4fd6-9053-7344ed0b177f",
+        "date": "2023-08-29T09:49:45.368Z",
+        "time": "2023-08-28T23:14:30.571Z",
+        "status": "Pending",
+        "created_at": "2023-08-29T11:16:56.266Z",
+        "updated_at": "2023-08-29T15:11:26.658Z",
+        "healthcare_provider_id": "3f1d20b8-6693-437c-83a9-f1775ec3e9b8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e12057d1-02f7-44de-a1b4-dc69b4c7917e",
+        "email": "Jesus_Schulist@hotmail.com",
+        "firstName": "Marta",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17b89a56-fad8-4627-9aa9-f82980072768",
+        "email": "Mable58@hotmail.com",
+        "firstName": "Marguerite",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50673201",
+        "tenantId": null
+      },
+      {
+        "reference": "f10e35d3-388b-4451-969d-e89ced146879",
+        "email": "Niko44@yahoo.com",
+        "firstName": "Jamaal",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45632087",
+        "tenantId": null
+      },
+      {
+        "reference": "079db8a4-0209-4955-b5ee-570d904b7bce",
+        "email": "Carrie50@hotmail.com",
+        "firstName": "Adelle",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/844.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e8f1aba-7d98-44a6-9a96-1950297676f7",
+        "email": "Melody98@yahoo.com",
+        "firstName": "Paxton",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83502121",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "52a53d68-b161-4042-bfe3-e059d9472779",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T14:27:05.994Z",
+        "updated_at": "2023-08-29T08:10:21.078Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac8d972a-2cae-49c7-a5dc-c4284ab3e2ff",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-29T03:32:37.263Z",
+        "updated_at": "2023-08-29T13:04:48.607Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15a75ae8-728a-4fd7-a226-88da650e6d76",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T16:47:50.280Z",
+        "updated_at": "2023-08-29T02:52:54.721Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b01b7a3-3bb2-48c7-a18f-6dc82e467b6f",
+        "position": "Pharmacist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T07:42:36.840Z",
+        "updated_at": "2023-08-29T10:36:56.669Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95d0ab25-747f-4f79-8c69-2fef1e6bec14",
+        "position": "Physical Therapist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T04:58:15.916Z",
+        "updated_at": "2023-08-29T15:07:28.029Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "a82b717b-6da4-4d9d-9fff-092b40248ba9",
+        "company_name": "ABC Insurance",
+        "coverage": "Health",
+        "created_at": "2023-08-29T03:38:31.024Z",
+        "updated_at": "2023-08-29T12:16:48.183Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9edb16b-ce00-4f3a-b9d4-3c09f260c70c",
+        "company_name": "XYZ Insurance",
+        "coverage": "Auto",
+        "created_at": "2023-08-28T19:24:21.366Z",
+        "updated_at": "2023-08-28T20:43:36.662Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e914da4-30b2-4570-8868-fbdfeb8c4649",
+        "company_name": "123 Insurance",
+        "coverage": "Home",
+        "created_at": "2023-08-29T06:45:07.520Z",
+        "updated_at": "2023-08-29T02:25:54.302Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1601751-7011-44b8-b0e6-eaa4c861217f",
+        "company_name": "Acme Insurance",
+        "coverage": "Life",
+        "created_at": "2023-08-28T21:37:14.556Z",
+        "updated_at": "2023-08-29T16:15:44.449Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8449481e-b008-4856-a613-8f0a787cf51f",
+        "company_name": "Secure Insurance",
+        "coverage": "Travel",
+        "created_at": "2023-08-29T08:31:22.460Z",
+        "updated_at": "2023-08-29T18:36:40.631Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "a32d1b5f-1351-4539-a74c-703f84bb5fd6",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 10217,
+        "created_at": "2023-08-29T16:20:05.414Z",
+        "updated_at": "2023-08-28T23:37:59.428Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "155c453b-6072-4837-a3a3-5a6c6d72eaab",
+        "specialization": "Dermatology",
+        "qualification": "DO",
+        "experience": 49214,
+        "created_at": "2023-08-29T00:10:22.111Z",
+        "updated_at": "2023-08-29T02:39:56.145Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24e335ca-ad13-411f-939e-aeb1149a19c3",
+        "specialization": "Gastroenterology",
+        "qualification": "MBBS",
+        "experience": 93193,
+        "created_at": "2023-08-28T19:15:47.657Z",
+        "updated_at": "2023-08-28T22:22:41.642Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dc354a1-9dab-4c61-9d9c-55f3d7897918",
+        "specialization": "Neurology",
+        "qualification": "PhD",
+        "experience": 20876,
+        "created_at": "2023-08-29T17:10:53.943Z",
+        "updated_at": "2023-08-28T21:30:06.564Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ff5e6fa-9b62-466f-abaf-686f8882a956",
+        "specialization": "Oncology",
+        "qualification": "DDS",
+        "experience": 63474,
+        "created_at": "2023-08-29T00:20:28.340Z",
+        "updated_at": "2023-08-29T00:10:10.184Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "00ecaf10-332d-413c-99f0-aae96c0a05cb",
+        "date": "2023-08-28T20:15:52.881Z",
+        "time": "2023-08-29T01:57:33.875Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T17:27:53.372Z",
+        "updated_at": "2023-08-29T08:13:03.368Z",
+        "healthcare_provider_id": "2ff5e6fa-9b62-466f-abaf-686f8882a956",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40f0ba0f-7381-4c8b-b337-afa54ef63b8a",
+        "date": "2023-08-29T16:40:01.799Z",
+        "time": "2023-08-29T03:07:11.577Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T13:13:39.383Z",
+        "updated_at": "2023-08-29T13:58:34.164Z",
+        "healthcare_provider_id": "155c453b-6072-4837-a3a3-5a6c6d72eaab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e34bd91-2513-4df9-9283-91dd3b41fec1",
+        "date": "2023-08-29T05:00:30.279Z",
+        "time": "2023-08-29T12:03:41.641Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T18:03:51.343Z",
+        "updated_at": "2023-08-29T06:54:53.121Z",
+        "healthcare_provider_id": "24e335ca-ad13-411f-939e-aeb1149a19c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b4cb66f-c094-4e2d-9c37-866bb82245fc",
+        "date": "2023-08-29T04:23:15.657Z",
+        "time": "2023-08-29T02:17:15.452Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T15:37:20.200Z",
+        "updated_at": "2023-08-29T04:28:08.232Z",
+        "healthcare_provider_id": "7dc354a1-9dab-4c61-9d9c-55f3d7897918",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3562860c-95b3-4bce-b188-a93448659bbe",
+        "date": "2023-08-29T02:55:47.951Z",
+        "time": "2023-08-29T14:31:32.232Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T21:10:56.091Z",
+        "updated_at": "2023-08-29T09:44:38.745Z",
+        "healthcare_provider_id": "155c453b-6072-4837-a3a3-5a6c6d72eaab",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c36a1340-05c4-4988-81d8-9f924a2cfe43",
+        "email": "Oral0@yahoo.com",
+        "firstName": "Dylan",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1153.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d4a4c123-852f-4dc7-91f9-87293333b005",
+        "email": "Claire_Williamson58@gmail.com",
+        "firstName": "Albert",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55003549",
+        "tenantId": null
+      },
+      {
+        "reference": "1e804bb3-62ea-4ae8-ae3f-8b33084411d7",
+        "email": "Bill31@yahoo.com",
+        "firstName": "Kennedy",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/813.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bc910209-5ceb-4954-bf56-66dca74f130c",
+        "email": "Jasper.Flatley@hotmail.com",
+        "firstName": "Selena",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16715280",
+        "tenantId": null
+      },
+      {
+        "reference": "8b8f0fac-1030-44bc-89b4-ee7a828c906f",
+        "email": "Allene_Collier@gmail.com",
+        "firstName": "Marisa",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98380390",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "2d7071d8-631c-4915-b061-1a9234d3eb21",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-28T22:03:21.758Z",
+        "updated_at": "2023-08-29T01:24:01.892Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d0a1172-0b8d-4901-bbc4-18312506bdf3",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-28T21:48:23.721Z",
+        "updated_at": "2023-08-29T08:50:16.424Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "134d64fb-519c-4639-901f-692954a6c15f",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T13:37:18.741Z",
+        "updated_at": "2023-08-29T08:04:29.343Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33683721-7dff-4aca-a5b7-b503fa9d0087",
+        "position": "Anesthesiologist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T01:43:29.468Z",
+        "updated_at": "2023-08-29T04:19:01.724Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b893bcb-4fb4-47e1-9555-ec8db395337e",
+        "position": "Pharmacist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T05:39:49.842Z",
+        "updated_at": "2023-08-28T21:15:34.804Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "93714da0-4b84-4c88-8289-23ee7b95a234",
+        "company_name": "ABC Insurance",
+        "coverage": "Health",
+        "created_at": "2023-08-28T21:32:24.989Z",
+        "updated_at": "2023-08-29T11:16:16.612Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bfc9115-2761-487f-8c69-498b696cb82a",
+        "company_name": "XYZ Insurance",
+        "coverage": "Life",
+        "created_at": "2023-08-29T00:59:28.474Z",
+        "updated_at": "2023-08-28T19:39:15.562Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b130545-b577-4b69-9026-035085c6cc10",
+        "company_name": "Global Insurers",
+        "coverage": "Auto",
+        "created_at": "2023-08-29T01:47:45.501Z",
+        "updated_at": "2023-08-29T00:32:39.855Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24bf042d-7be5-4628-b4d3-bd85ea1602ed",
+        "company_name": "Secure Insurance",
+        "coverage": "Home",
+        "created_at": "2023-08-29T00:48:25.760Z",
+        "updated_at": "2023-08-29T01:48:12.868Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ad367e2-dcfc-4a31-b628-d8c75932d585",
+        "company_name": "United Providers",
+        "coverage": "Travel",
+        "created_at": "2023-08-29T16:09:01.453Z",
+        "updated_at": "2023-08-29T00:44:19.570Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "cf220596-3d3e-4ea3-8a2f-6861b4f9e6a7",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 97594,
+        "created_at": "2023-08-29T17:01:20.096Z",
+        "updated_at": "2023-08-28T19:34:33.466Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8450e410-2a11-4c4e-8b5e-7b32d8b14d7d",
+        "specialization": "Dermatology",
+        "qualification": "DO",
+        "experience": 19091,
+        "created_at": "2023-08-29T09:04:29.852Z",
+        "updated_at": "2023-08-28T20:22:54.832Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a8fbdf-c417-466e-85c8-debf6521522b",
+        "specialization": "Gastroenterology",
+        "qualification": "MBBS",
+        "experience": 45362,
+        "created_at": "2023-08-29T13:20:25.614Z",
+        "updated_at": "2023-08-29T17:36:29.900Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5491ff6-172a-4b94-a07d-9b058d027dfb",
+        "specialization": "Ophthalmology",
+        "qualification": "MS",
+        "experience": 87231,
+        "created_at": "2023-08-29T17:37:48.001Z",
+        "updated_at": "2023-08-28T19:31:31.392Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c036816-8e77-406d-b82b-1892af0f4579",
+        "specialization": "Orthopedics",
+        "qualification": "PhD",
+        "experience": 26795,
+        "created_at": "2023-08-29T17:40:54.432Z",
+        "updated_at": "2023-08-29T11:22:34.824Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "82750e46-64fd-4f8a-afbd-270a779a695f",
+        "date": "2023-08-29T17:37:08.852Z",
+        "time": "2023-08-29T14:00:17.847Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T14:08:31.279Z",
+        "updated_at": "2023-08-29T02:08:48.838Z",
+        "healthcare_provider_id": "8450e410-2a11-4c4e-8b5e-7b32d8b14d7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4eb9051-4249-4241-b254-50563b324963",
+        "date": "2023-08-29T14:05:27.599Z",
+        "time": "2023-08-29T10:34:11.200Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T22:46:36.333Z",
+        "updated_at": "2023-08-29T14:48:09.420Z",
+        "healthcare_provider_id": "1c036816-8e77-406d-b82b-1892af0f4579",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ccfd216-0784-4b98-815c-164124519ced",
+        "date": "2023-08-28T23:57:57.826Z",
+        "time": "2023-08-29T14:26:35.087Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T14:10:12.540Z",
+        "updated_at": "2023-08-28T23:55:44.631Z",
+        "healthcare_provider_id": "8450e410-2a11-4c4e-8b5e-7b32d8b14d7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ac97458-c432-49c4-8f6e-e83ed7d7a1a6",
+        "date": "2023-08-29T01:34:10.077Z",
+        "time": "2023-08-29T02:24:29.735Z",
+        "status": "In Progress",
+        "created_at": "2023-08-29T10:27:45.468Z",
+        "updated_at": "2023-08-29T06:31:52.344Z",
+        "healthcare_provider_id": "8450e410-2a11-4c4e-8b5e-7b32d8b14d7d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0d408d3-ccf2-4bff-afd8-efe5e0ba95a3",
+        "date": "2023-08-29T13:47:30.055Z",
+        "time": "2023-08-29T14:01:54.247Z",
+        "status": "No Show",
+        "created_at": "2023-08-29T04:54:30.281Z",
+        "updated_at": "2023-08-29T15:21:27.748Z",
+        "healthcare_provider_id": "cf220596-3d3e-4ea3-8a2f-6861b4f9e6a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5cd00844-1845-4e65-a63f-7d43235b92cc",
+        "email": "Jamey_Runolfsdottir93@yahoo.com",
+        "firstName": "Sylvester",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16328398",
+        "tenantId": null
+      },
+      {
+        "reference": "832b7391-ab43-4819-a408-2511e212faa8",
+        "email": "Adella_Hudson@gmail.com",
+        "firstName": "Scotty",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63864086",
+        "tenantId": null
+      },
+      {
+        "reference": "d63535fd-2e52-44bd-8104-8e4ed767b6d0",
+        "email": "Korey_Moen80@gmail.com",
+        "firstName": "Bryon",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95795236",
+        "tenantId": null
+      },
+      {
+        "reference": "2bfced9a-34da-4e7a-a8c3-49e4c0c8d416",
+        "email": "Tanya_Berge54@gmail.com",
+        "firstName": "Angelita",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28817351",
+        "tenantId": null
+      },
+      {
+        "reference": "f27cd9b3-c8e8-4327-9dee-cf758d5354d8",
+        "email": "Cynthia.Friesen-Mohr2@yahoo.com",
+        "firstName": "Adrienne",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/960.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "14f2f487-c477-4926-b6ec-4d99b598eac8",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-28T20:15:34.142Z",
+        "updated_at": "2023-08-29T08:02:02.657Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1b5b1da-21a9-4f5e-9916-84d3eaeb3af7",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-28T19:15:58.754Z",
+        "updated_at": "2023-08-29T10:16:09.952Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05386abf-b59a-4c19-bb5d-c37117fdffb5",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T16:51:12.870Z",
+        "updated_at": "2023-08-29T10:58:07.056Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dac12af-6d8d-43dd-af72-b570b7833d24",
+        "position": "Anesthesiologist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T02:05:45.349Z",
+        "updated_at": "2023-08-29T15:05:20.228Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0f3e4d4-d8d0-433f-b2f9-43f0bb08b01b",
+        "position": "Pharmacist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-28T21:20:16.403Z",
+        "updated_at": "2023-08-29T02:44:25.977Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "0d841e80-abf2-402a-8894-37ea00e4f5fd",
+        "company_name": "ABC Insurance",
+        "coverage": "Health",
+        "created_at": "2023-08-29T07:32:50.428Z",
+        "updated_at": "2023-08-29T03:14:10.619Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "914e5af5-0545-4cc4-a2fa-a27a3bbe3ec3",
+        "company_name": "XYZ Insurance",
+        "coverage": "Life",
+        "created_at": "2023-08-29T07:22:20.875Z",
+        "updated_at": "2023-08-29T04:50:43.844Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daf22f8c-e6aa-49ff-a520-1fcab305e59d",
+        "company_name": "Acme Insurance",
+        "coverage": "Auto",
+        "created_at": "2023-08-29T02:25:38.623Z",
+        "updated_at": "2023-08-29T17:51:03.207Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcba1046-5300-40e5-bdff-d1ace1c21658",
+        "company_name": "Global Insurance",
+        "coverage": "Home",
+        "created_at": "2023-08-28T22:57:20.363Z",
+        "updated_at": "2023-08-29T16:44:59.135Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b3c4c11-4464-473f-a9c3-e4f739a52584",
+        "company_name": "Secure Insurance",
+        "coverage": "Travel",
+        "created_at": "2023-08-29T13:27:18.865Z",
+        "updated_at": "2023-08-29T03:26:13.059Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "15ee7b3b-447f-4107-8142-ea2e11d18797",
+        "specialization": "Cardiology",
+        "qualification": "MBBS",
+        "experience": 75720,
+        "created_at": "2023-08-29T16:59:00.622Z",
+        "updated_at": "2023-08-29T01:08:06.523Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06daa72b-12c7-4af8-8d4c-a0375d5b23f6",
+        "specialization": "Dermatology",
+        "qualification": "MD",
+        "experience": 44450,
+        "created_at": "2023-08-29T01:56:13.104Z",
+        "updated_at": "2023-08-29T00:00:56.426Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a0d5da6-03e0-411c-bc75-2867704e16e1",
+        "specialization": "Pediatrics",
+        "qualification": "MS",
+        "experience": 73913,
+        "created_at": "2023-08-28T22:52:12.271Z",
+        "updated_at": "2023-08-28T22:04:40.899Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69a3ed12-391b-41dc-8c4c-26d76fbc111c",
+        "specialization": "Orthopedics",
+        "qualification": "DM",
+        "experience": 83850,
+        "created_at": "2023-08-29T07:25:27.367Z",
+        "updated_at": "2023-08-29T18:31:58.838Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39c283e1-864d-4e47-b08d-27e867ca0744",
+        "specialization": "Ophthalmology",
+        "qualification": "MCh",
+        "experience": 36769,
+        "created_at": "2023-08-29T13:58:46.470Z",
+        "updated_at": "2023-08-28T21:31:29.715Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "d6a11bed-4bc6-4191-9c2e-738054189978",
+        "date": "2023-08-29T12:33:12.942Z",
+        "time": "2023-08-29T08:38:14.217Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T13:27:21.090Z",
+        "updated_at": "2023-08-29T01:35:10.832Z",
+        "healthcare_provider_id": "06daa72b-12c7-4af8-8d4c-a0375d5b23f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38f67968-25fb-4d88-8a50-05a88aed7eb4",
+        "date": "2023-08-29T14:54:20.315Z",
+        "time": "2023-08-29T14:21:52.580Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T14:34:06.565Z",
+        "updated_at": "2023-08-29T06:38:55.457Z",
+        "healthcare_provider_id": "69a3ed12-391b-41dc-8c4c-26d76fbc111c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce941e48-7efa-4124-9311-1ea2d5adcaeb",
+        "date": "2023-08-29T02:31:58.505Z",
+        "time": "2023-08-29T18:20:57.442Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T01:31:50.894Z",
+        "updated_at": "2023-08-29T08:37:57.073Z",
+        "healthcare_provider_id": "39c283e1-864d-4e47-b08d-27e867ca0744",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1abe8c36-1926-4ae7-941c-008c8254184a",
+        "date": "2023-08-29T16:28:39.323Z",
+        "time": "2023-08-28T19:36:15.157Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T09:07:23.884Z",
+        "updated_at": "2023-08-29T13:50:43.925Z",
+        "healthcare_provider_id": "3a0d5da6-03e0-411c-bc75-2867704e16e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14bbff62-1a37-4229-8997-385bd8814adb",
+        "date": "2023-08-29T14:35:06.233Z",
+        "time": "2023-08-29T12:31:51.775Z",
+        "status": "Pending",
+        "created_at": "2023-08-29T10:56:10.622Z",
+        "updated_at": "2023-08-29T08:23:18.538Z",
+        "healthcare_provider_id": "15ee7b3b-447f-4107-8142-ea2e11d18797",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e1d86ad7-ba22-45ba-87ef-637d277f6105",
+        "email": "Guadalupe_Hintz65@yahoo.com",
+        "firstName": "Cleta",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c58b4eeb-f590-46e5-bb12-fd169b28d548",
+        "email": "Dora.Murazik@hotmail.com",
+        "firstName": "Gilbert",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6632567b-9ec5-4e03-a0f3-5269b308701e",
+        "email": "Tracey84@hotmail.com",
+        "firstName": "Laverne",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49065813",
+        "tenantId": null
+      },
+      {
+        "reference": "ea0a68c1-b880-46f6-8fbe-f8cac459f411",
+        "email": "Ivy29@hotmail.com",
+        "firstName": "Gonzalo",
+        "lastName": "Block-Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/220.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e76e338-d842-4698-b1f1-679e9e38a592",
+        "email": "Jailyn_Rodriguez@gmail.com",
+        "firstName": "Althea",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/792.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "4cd6add3-4e5d-4fb4-9f90-f4deb8611b11",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T00:50:57.729Z",
+        "updated_at": "2023-08-29T07:03:02.005Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f5ea6a9-eaea-473d-a887-3851f21174a0",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-29T00:44:01.467Z",
+        "updated_at": "2023-08-29T09:49:41.748Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a23df054-585a-4cc7-8cf7-dfe4a3ef2a77",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T00:25:02.150Z",
+        "updated_at": "2023-08-29T03:24:55.602Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd8d8cfe-fa9e-4f3a-a544-ffe2a3777ddb",
+        "position": "Pharmacist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T12:09:58.681Z",
+        "updated_at": "2023-08-28T18:51:22.284Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d74c2a8e-c859-4fc7-8d65-450049c68b15",
+        "position": "Medical Assistant",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T09:08:30.505Z",
+        "updated_at": "2023-08-29T03:04:37.947Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "dcc1a991-f833-475a-bf5b-fcf49e99febf",
+        "company_name": "ABC Insurance",
+        "coverage": "Health",
+        "created_at": "2023-08-29T02:33:46.764Z",
+        "updated_at": "2023-08-29T10:05:41.319Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8784e7ab-8297-46b7-9ace-a1847f0ecf7a",
+        "company_name": "XYZ Insurance",
+        "coverage": "Life",
+        "created_at": "2023-08-28T22:33:46.734Z",
+        "updated_at": "2023-08-28T18:50:49.318Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f0e705d-6a08-4113-98ad-089779b55efb",
+        "company_name": "Acme Insurance",
+        "coverage": "Auto",
+        "created_at": "2023-08-29T06:26:12.189Z",
+        "updated_at": "2023-08-29T10:06:53.891Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289a57a7-ee4d-440b-820b-8e6c3efdc3e1",
+        "company_name": "Secure Insurance",
+        "coverage": "Home",
+        "created_at": "2023-08-29T17:26:10.851Z",
+        "updated_at": "2023-08-29T08:05:47.216Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "850682e8-d212-48a0-8163-13da6dfd8e51",
+        "company_name": "Global Insurance",
+        "coverage": "Travel",
+        "created_at": "2023-08-29T09:40:55.406Z",
+        "updated_at": "2023-08-29T10:34:11.900Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "78fadcb6-0224-4738-900a-4c1d98bc1d48",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 20413,
+        "created_at": "2023-08-29T07:47:43.486Z",
+        "updated_at": "2023-08-29T13:06:41.565Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "702c8629-a84b-45af-9833-c41bb3db95de",
+        "specialization": "Pediatrics",
+        "qualification": "PhD",
+        "experience": 22775,
+        "created_at": "2023-08-29T04:28:25.853Z",
+        "updated_at": "2023-08-29T16:10:38.871Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65b38b04-f577-4bf5-94b8-c98d396718ae",
+        "specialization": "Dermatology",
+        "qualification": "MBBS",
+        "experience": 11285,
+        "created_at": "2023-08-29T06:27:10.443Z",
+        "updated_at": "2023-08-28T22:32:40.968Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecab117c-ecdb-4bf8-84f0-147b129b3b97",
+        "specialization": "Orthopedics",
+        "qualification": "DDS",
+        "experience": 33572,
+        "created_at": "2023-08-28T19:13:51.757Z",
+        "updated_at": "2023-08-29T06:15:02.909Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85281a16-4355-46b6-a8b9-78a2bd923c0d",
+        "specialization": "Ophthalmology",
+        "qualification": "DPT",
+        "experience": 91385,
+        "created_at": "2023-08-29T08:45:57.013Z",
+        "updated_at": "2023-08-29T06:20:50.673Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "33b9e1c7-ef43-46a8-86de-46b02443a29f",
+        "date": "2023-08-29T14:39:40.145Z",
+        "time": "2023-08-29T18:31:38.422Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T03:10:47.166Z",
+        "updated_at": "2023-08-29T17:00:22.815Z",
+        "healthcare_provider_id": "78fadcb6-0224-4738-900a-4c1d98bc1d48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c0d6e6f-4cfc-40a6-98d4-faaf6f44ebde",
+        "date": "2023-08-29T02:50:34.104Z",
+        "time": "2023-08-29T03:50:39.283Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T10:06:42.444Z",
+        "updated_at": "2023-08-29T03:00:13.328Z",
+        "healthcare_provider_id": "78fadcb6-0224-4738-900a-4c1d98bc1d48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea967902-0744-4526-95cf-4e1ca406143a",
+        "date": "2023-08-29T16:49:58.561Z",
+        "time": "2023-08-28T22:24:35.493Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T16:09:22.393Z",
+        "updated_at": "2023-08-29T18:22:01.960Z",
+        "healthcare_provider_id": "ecab117c-ecdb-4bf8-84f0-147b129b3b97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4eab8aa-ef91-4369-bd5d-9c52c42bfba9",
+        "date": "2023-08-28T21:07:13.641Z",
+        "time": "2023-08-29T02:31:25.558Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T03:24:36.579Z",
+        "updated_at": "2023-08-29T03:49:53.308Z",
+        "healthcare_provider_id": "78fadcb6-0224-4738-900a-4c1d98bc1d48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47ca1d26-c99c-4eb5-8cc4-2662d99dd057",
+        "date": "2023-08-29T05:02:09.669Z",
+        "time": "2023-08-29T10:19:28.935Z",
+        "status": "Pending",
+        "created_at": "2023-08-29T05:05:54.663Z",
+        "updated_at": "2023-08-29T16:35:46.423Z",
+        "healthcare_provider_id": "65b38b04-f577-4bf5-94b8-c98d396718ae",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd19217b-dd35-45a3-9bc9-ac7fd047e3ae",
+        "email": "Julie28@gmail.com",
+        "firstName": "Idella",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/281.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9d571e5-27cb-49a9-9065-ab25168e5173",
+        "email": "Gregory62@yahoo.com",
+        "firstName": "Erich",
+        "lastName": "Rohan-Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21a45483-95b7-4663-993d-7e52ed5e75bd",
+        "email": "Bennett51@gmail.com",
+        "firstName": "Rory",
+        "lastName": "Koepp-Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28115420",
+        "tenantId": null
+      },
+      {
+        "reference": "01f606f0-db6a-44a4-a0e0-072b117a2bf5",
+        "email": "Braeden62@gmail.com",
+        "firstName": "Graham",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72458939",
+        "tenantId": null
+      },
+      {
+        "reference": "854cd85e-8f08-4f29-8e07-0910e6cae38e",
+        "email": "Irwin52@yahoo.com",
+        "firstName": "Fernando",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "fbf746a1-aca4-44f4-99f3-106be7efe2b8",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T01:02:56.940Z",
+        "updated_at": "2023-08-29T18:33:47.713Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01602319-a38c-41a2-b116-9a632a5d6df2",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-28T21:35:07.755Z",
+        "updated_at": "2023-08-28T19:33:56.600Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d234edcd-625d-440b-b62f-f38601fe5349",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T10:29:13.560Z",
+        "updated_at": "2023-08-28T22:52:41.514Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d993a20b-5ab3-4107-b08b-99acba85a1d4",
+        "position": "Pharmacist",
+        "work_shift": "Night",
+        "created_at": "2023-08-28T22:39:32.462Z",
+        "updated_at": "2023-08-29T06:51:39.204Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db9a559b-afae-4517-bd1b-6cb95a3c0f6e",
+        "position": "Physiotherapist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T14:21:54.739Z",
+        "updated_at": "2023-08-28T19:37:08.626Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "508d3a54-2a21-4740-bb6c-60f8dde2cb4e",
+        "company_name": "ABC Insurance",
+        "coverage": "Medical",
+        "created_at": "2023-08-28T21:31:53.185Z",
+        "updated_at": "2023-08-29T06:08:19.103Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c8365a-a2b4-4fb1-a918-f534f33bc037",
+        "company_name": "XYZ Health",
+        "coverage": "Dental",
+        "created_at": "2023-08-29T13:33:48.461Z",
+        "updated_at": "2023-08-29T01:15:45.386Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dbb5b9d-388d-44f3-99ae-00df990cc6e9",
+        "company_name": "123 Coverage",
+        "coverage": "Vision",
+        "created_at": "2023-08-29T05:45:50.636Z",
+        "updated_at": "2023-08-28T21:29:17.614Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7969dec-7107-464d-9464-ea5cb23b7e1a",
+        "company_name": "Secure Insurers",
+        "coverage": "Life",
+        "created_at": "2023-08-29T08:54:59.526Z",
+        "updated_at": "2023-08-28T21:56:29.154Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0204dd2-caed-42cf-bbcb-7b19eb230542",
+        "company_name": "Global Assurance",
+        "coverage": "Disability",
+        "created_at": "2023-08-28T21:55:15.579Z",
+        "updated_at": "2023-08-29T00:02:05.458Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "726cb06f-6913-4bb6-920b-98ebb7eac9da",
+        "specialization": "Cardiology",
+        "qualification": "MBBS",
+        "experience": 53911,
+        "created_at": "2023-08-29T16:37:42.482Z",
+        "updated_at": "2023-08-29T07:18:10.294Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24a8d490-9483-4d0f-bbe2-f55b78dbd3a9",
+        "specialization": "Pediatrics",
+        "qualification": "MD",
+        "experience": 61065,
+        "created_at": "2023-08-29T18:41:18.932Z",
+        "updated_at": "2023-08-28T22:01:09.762Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f81204a-7233-4dfe-8123-c10d8e874a0e",
+        "specialization": "Orthopedics",
+        "qualification": "MS",
+        "experience": 3464,
+        "created_at": "2023-08-28T23:28:38.379Z",
+        "updated_at": "2023-08-28T19:44:48.144Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9511920-4cff-4f53-9d46-6b300eb35f6e",
+        "specialization": "Dermatology",
+        "qualification": "PhD",
+        "experience": 25666,
+        "created_at": "2023-08-29T15:02:07.280Z",
+        "updated_at": "2023-08-28T20:38:47.645Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c855a718-f4ef-4747-81f5-6e77edb8d1e8",
+        "specialization": "Oncology",
+        "qualification": "Diploma",
+        "experience": 45780,
+        "created_at": "2023-08-29T06:34:30.697Z",
+        "updated_at": "2023-08-29T01:51:34.744Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "7557f8a4-dfe0-480a-947b-afd7f62a86f0",
+        "date": "2023-08-29T14:24:58.756Z",
+        "time": "2023-08-28T22:06:01.618Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T06:04:16.389Z",
+        "updated_at": "2023-08-29T12:24:39.709Z",
+        "healthcare_provider_id": "726cb06f-6913-4bb6-920b-98ebb7eac9da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae34480-da35-4fdc-a5b0-41c402e62ab1",
+        "date": "2023-08-29T14:35:17.481Z",
+        "time": "2023-08-29T04:23:45.068Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-29T13:28:45.385Z",
+        "updated_at": "2023-08-29T13:34:50.349Z",
+        "healthcare_provider_id": "24a8d490-9483-4d0f-bbe2-f55b78dbd3a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69fa2e08-14ef-45c6-9578-b04b0558496b",
+        "date": "2023-08-29T15:19:10.382Z",
+        "time": "2023-08-29T03:42:29.922Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T06:16:22.788Z",
+        "updated_at": "2023-08-29T15:39:04.390Z",
+        "healthcare_provider_id": "24a8d490-9483-4d0f-bbe2-f55b78dbd3a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0be351c9-276f-461a-b236-14d085470f82",
+        "date": "2023-08-28T22:17:17.813Z",
+        "time": "2023-08-29T01:18:11.979Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T08:49:41.798Z",
+        "updated_at": "2023-08-29T12:25:27.959Z",
+        "healthcare_provider_id": "726cb06f-6913-4bb6-920b-98ebb7eac9da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f34b58e-c40c-41bc-8f31-04a125786bca",
+        "date": "2023-08-28T23:28:31.520Z",
+        "time": "2023-08-29T11:42:52.984Z",
+        "status": "No-show",
+        "created_at": "2023-08-29T15:09:30.475Z",
+        "updated_at": "2023-08-28T23:07:17.310Z",
+        "healthcare_provider_id": "c855a718-f4ef-4747-81f5-6e77edb8d1e8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8d0e7fdb-3392-4996-b075-a6dcb1bac8b4",
+        "email": "Gregorio.Hane78@yahoo.com",
+        "firstName": "Andres",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "176a3103-9132-468f-b585-2f31ff1e08bb",
+        "email": "Guadalupe.Gerhold@yahoo.com",
+        "firstName": "Marie",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59090469",
+        "tenantId": null
+      },
+      {
+        "reference": "dc8d0498-9f28-4884-b46a-e68bce9c56f3",
+        "email": "Jett.Bogisich52@yahoo.com",
+        "firstName": "Clinton",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31853c9b-58e1-4dd0-ba18-242d998d9d14",
+        "email": "Sebastian.Parisian@gmail.com",
+        "firstName": "Alejandra",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59346333",
+        "tenantId": null
+      },
+      {
+        "reference": "df6a8d03-3717-4642-b868-507f5d693601",
+        "email": "Buford.Emard39@yahoo.com",
+        "firstName": "Cale",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51082420",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "medical_staff": [
+      {
+        "id": "d338df37-d5e4-4a2a-967d-a4f7c8e11203",
+        "position": "Doctor",
+        "work_shift": "Morning",
+        "created_at": "2023-08-29T02:44:10.611Z",
+        "updated_at": "2023-08-29T12:45:58.956Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36647bb5-270b-46b7-a107-7cff11ceb0a2",
+        "position": "Nurse",
+        "work_shift": "Afternoon",
+        "created_at": "2023-08-29T13:37:55.676Z",
+        "updated_at": "2023-08-29T01:44:25.528Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a992d6e6-0d99-49dc-b8ae-058df08e6801",
+        "position": "Surgeon",
+        "work_shift": "Evening",
+        "created_at": "2023-08-29T14:02:16.426Z",
+        "updated_at": "2023-08-29T18:29:09.798Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca2345a4-f1bf-4440-b60a-88d5b1212b30",
+        "position": "Therapist",
+        "work_shift": "Night",
+        "created_at": "2023-08-29T10:58:46.031Z",
+        "updated_at": "2023-08-29T18:22:08.201Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "105a4a49-eb88-49d6-9bec-c36b2b458530",
+        "position": "Pharmacist",
+        "work_shift": "Weekend",
+        "created_at": "2023-08-29T04:34:12.347Z",
+        "updated_at": "2023-08-29T17:38:51.273Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "insurance_provider": [
+      {
+        "id": "157d4768-fb1b-48c7-89cc-8142d31825ec",
+        "company_name": "ABC Insurance",
+        "coverage": "Medical",
+        "created_at": "2023-08-29T06:16:48.624Z",
+        "updated_at": "2023-08-29T13:00:14.945Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ece4ae9b-0e91-4446-aefb-322de3964434",
+        "company_name": "XYZ Health",
+        "coverage": "Dental",
+        "created_at": "2023-08-29T07:55:54.370Z",
+        "updated_at": "2023-08-29T16:53:57.035Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc249b5c-b103-4718-83f5-ae3f44ee2bd8",
+        "company_name": "123 Insurance",
+        "coverage": "Vision",
+        "created_at": "2023-08-29T03:18:10.706Z",
+        "updated_at": "2023-08-28T20:52:12.014Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "463da46a-595e-455b-bcb4-a1df6263609e",
+        "company_name": "ABC Health",
+        "coverage": "Life",
+        "created_at": "2023-08-29T18:42:23.119Z",
+        "updated_at": "2023-08-28T22:06:26.215Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a02cade3-843f-47ad-be5e-0ca99c35f9ba",
+        "company_name": "XYZ Insurance",
+        "coverage": "Disability",
+        "created_at": "2023-08-29T13:22:51.366Z",
+        "updated_at": "2023-08-29T02:47:58.790Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "aad0f2f2-27f9-46b0-80a6-d7780f24c78b",
+        "specialization": "Cardiology",
+        "qualification": "MD",
+        "experience": 31307,
+        "created_at": "2023-08-28T23:21:09.223Z",
+        "updated_at": "2023-08-29T01:42:48.108Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea595a47-3922-4f57-a404-812052349f20",
+        "specialization": "Dermatology",
+        "qualification": "PhD",
+        "experience": 88415,
+        "created_at": "2023-08-28T20:01:19.111Z",
+        "updated_at": "2023-08-29T06:58:33.683Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e5c5693-0c03-4468-9ba1-5ac3ad4f0ba8",
+        "specialization": "Pediatrics",
+        "qualification": "MBBS",
+        "experience": 9890,
+        "created_at": "2023-08-29T01:20:53.531Z",
+        "updated_at": "2023-08-28T21:52:08.710Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beb497f3-3b11-4f03-b711-36d2f8adb002",
+        "specialization": "Orthopedics",
+        "qualification": "BDS",
+        "experience": 95135,
+        "created_at": "2023-08-29T08:31:23.564Z",
+        "updated_at": "2023-08-29T04:09:09.430Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc530d03-5c50-4a2b-b6f5-706ebb5fb6ff",
+        "specialization": "Gynecology",
+        "qualification": "MS",
+        "experience": 27015,
+        "created_at": "2023-08-29T12:35:55.058Z",
+        "updated_at": "2023-08-29T08:57:50.982Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9a5a8268-c019-4e83-a3b8-37c9fb8d0139",
+        "date": "2023-08-29T05:39:19.443Z",
+        "time": "2023-08-29T15:05:46.459Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T14:08:27.080Z",
+        "updated_at": "2023-08-29T11:42:41.426Z",
+        "healthcare_provider_id": "2e5c5693-0c03-4468-9ba1-5ac3ad4f0ba8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e38ce4a9-1f62-4306-81d7-85d2fae31350",
+        "date": "2023-08-28T19:06:12.589Z",
+        "time": "2023-08-29T13:49:18.294Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T02:29:08.930Z",
+        "updated_at": "2023-08-28T19:19:31.860Z",
+        "healthcare_provider_id": "dc530d03-5c50-4a2b-b6f5-706ebb5fb6ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24f33dd5-7e74-481e-8ce0-7b6145caeac4",
+        "date": "2023-08-28T21:27:26.544Z",
+        "time": "2023-08-28T18:49:04.243Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T19:27:02.137Z",
+        "updated_at": "2023-08-29T10:46:34.729Z",
+        "healthcare_provider_id": "ea595a47-3922-4f57-a404-812052349f20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efe6a69f-c235-41a0-a64d-a57c3acee514",
+        "date": "2023-08-28T22:48:36.514Z",
+        "time": "2023-08-29T05:52:59.379Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-29T11:12:15.978Z",
+        "updated_at": "2023-08-28T23:56:58.168Z",
+        "healthcare_provider_id": "aad0f2f2-27f9-46b0-80a6-d7780f24c78b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3a71e0-c7c8-4bb4-8e67-b9908cfb01a6",
+        "date": "2023-08-29T16:52:50.589Z",
+        "time": "2023-08-28T19:00:06.000Z",
+        "status": "Pending",
+        "created_at": "2023-08-29T12:28:56.212Z",
+        "updated_at": "2023-08-29T16:30:05.318Z",
+        "healthcare_provider_id": "dc530d03-5c50-4a2b-b6f5-706ebb5fb6ff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4f64f363-bcf2-4820-a9b6-493b13c05575",
+        "email": "Margarette4@yahoo.com",
+        "firstName": "Mariano",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3994668",
+        "tenantId": null
+      },
+      {
+        "reference": "75398a4e-d1a1-472e-b24c-74c23df54909",
+        "email": "Oliver59@gmail.com",
+        "firstName": "Raquel",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17190492",
+        "tenantId": null
+      },
+      {
+        "reference": "ad04ab69-3349-474b-8136-eaa5af70f318",
+        "email": "Declan82@gmail.com",
+        "firstName": "Roman",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60807642",
+        "tenantId": null
+      },
+      {
+        "reference": "60da0613-2045-4b0f-b7d3-4c4133792007",
+        "email": "Jarret_Bergnaum@gmail.com",
+        "firstName": "Joseph",
+        "lastName": "Price-Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/903.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61d51e40-6287-4699-a068-331b0e126b73",
+        "email": "Caterina_Adams@yahoo.com",
+        "firstName": "Alejandrin",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52631994",
+        "tenantId": null
+      }
+    ]
+  }
+]
